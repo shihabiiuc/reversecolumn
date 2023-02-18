@@ -69,4 +69,10 @@ section {
         flex-basis: 48%;
   }
 }
+
+.container .mobile-order-2 {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
 /*# sourceMappingURL=style.css.map */
