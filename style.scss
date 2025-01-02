@@ -9,10 +9,10 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   font-size: 20px;
-  background-color: #F3F3F3;
+  background-color: #f3f3f3;
 }
 img {
   max-width: 100%;
@@ -25,8 +25,8 @@ section {
   margin: 0 auto;
 }
 .banner {
-  background-color: #1F4662;
-  color: rgba($color: #FFFFFF, $alpha: 0.7)
+  background-color: #1f4662;
+  color: rgba($color: #ffffff, $alpha: 0.7);
 }
 
 // tteesstt
@@ -42,7 +42,8 @@ section {
   @media (min-width: 768px) {
     justify-content: space-between;
   }
-  .col-1, .col-2 {
+  .col-1,
+  .col-2 {
     flex-basis: 100%;
     @media (min-width: 768px) {
       flex-basis: 48%;
