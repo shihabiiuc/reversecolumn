@@ -36,20 +36,23 @@ section {
 .row-2 {
   background-color: #fce1e2;
 }
+
 .container {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
-  @media (min-width: 768px) {
-    justify-content: space-between;
-  }
-  .col-1,
-  .col-2 {
+
+  .col {
     flex-basis: 100%;
     @media (min-width: 768px) {
       flex-basis: 48%;
+      order: 1;
     }
   }
-  .mobile-order-2 {
+  .coconut {
     order: 2;
+    @media (min-width: 768px) {
+      order: 1;
+    }
   }
 }
